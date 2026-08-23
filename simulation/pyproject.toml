@@ -1,0 +1,9 @@
+[project]
+name = "m-from-mystery-sim"
+version = "0.1.0"
+description = "Exact arithmetic of the one-generation ledger, the four global gauge forms and their line lattices, the SL(2,Z) charge orbit, and the fusion counterexamples to label atomicity"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+]

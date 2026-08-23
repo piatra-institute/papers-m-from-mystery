@@ -1,0 +1,267 @@
+{
+  "generation": {
+    "multiplets": [
+      {
+        "name": "qL",
+        "su3": 3,
+        "su2": 2,
+        "hypercharge": "1/6",
+        "states": 6
+      },
+      {
+        "name": "dbarR",
+        "su3": 3,
+        "su2": 1,
+        "hypercharge": "1/3",
+        "states": 3
+      },
+      {
+        "name": "ubarR",
+        "su3": 3,
+        "su2": 1,
+        "hypercharge": "-2/3",
+        "states": 3
+      },
+      {
+        "name": "lL",
+        "su3": 1,
+        "su2": 2,
+        "hypercharge": "-1/2",
+        "states": 2
+      },
+      {
+        "name": "ebarR",
+        "su3": 1,
+        "su2": 1,
+        "hypercharge": "1",
+        "states": 1
+      },
+      {
+        "name": "nbarR",
+        "su3": 1,
+        "su2": 1,
+        "hypercharge": "0",
+        "states": 1
+      }
+    ],
+    "total_weyl_states": 16,
+    "anomaly_sums": {
+      "su3_su3_u1": "0",
+      "su2_su2_u1": "0",
+      "u1_cubed": "0",
+      "grav_grav_u1": "0",
+      "witten_doublets": "4"
+    },
+    "all_conditions_hold": true,
+    "deletion_breaks": {
+      "qL": [
+        "su3_su3_u1",
+        "su2_su2_u1",
+        "u1_cubed",
+        "grav_grav_u1",
+        "witten_parity"
+      ],
+      "dbarR": [
+        "su3_su3_u1",
+        "u1_cubed",
+        "grav_grav_u1"
+      ],
+      "ubarR": [
+        "su3_su3_u1",
+        "u1_cubed",
+        "grav_grav_u1"
+      ],
+      "lL": [
+        "su2_su2_u1",
+        "u1_cubed",
+        "grav_grav_u1",
+        "witten_parity"
+      ],
+      "ebarR": [
+        "u1_cubed",
+        "grav_grav_u1"
+      ],
+      "nbarR": []
+    },
+    "deletions_that_break_nothing": [
+      "nbarR"
+    ]
+  },
+  "global_forms": {
+    "n_center_classes": 36,
+    "screening_subgroup_order": 6,
+    "matter_classes": {
+      "qL": [
+        1,
+        1,
+        1
+      ],
+      "dbarR": [
+        2,
+        0,
+        2
+      ],
+      "ubarR": [
+        2,
+        0,
+        2
+      ],
+      "lL": [
+        0,
+        1,
+        3
+      ],
+      "ebarR": [
+        0,
+        0,
+        0
+      ],
+      "nbarR": [
+        0,
+        0,
+        0
+      ]
+    },
+    "forms": {
+      "1": {
+        "gamma_order": 1,
+        "n_wilson_classes": 36,
+        "electric_one_form_order": 6,
+        "magnetic_one_form_order": 1,
+        "product": 6,
+        "matter_admissible": true
+      },
+      "Z2": {
+        "gamma_order": 2,
+        "n_wilson_classes": 18,
+        "electric_one_form_order": 3,
+        "magnetic_one_form_order": 2,
+        "product": 6,
+        "matter_admissible": true
+      },
+      "Z3": {
+        "gamma_order": 3,
+        "n_wilson_classes": 12,
+        "electric_one_form_order": 2,
+        "magnetic_one_form_order": 3,
+        "product": 6,
+        "matter_admissible": true
+      },
+      "Z6": {
+        "gamma_order": 6,
+        "n_wilson_classes": 6,
+        "electric_one_form_order": 1,
+        "magnetic_one_form_order": 6,
+        "product": 6,
+        "matter_admissible": true
+      }
+    },
+    "lattices": {
+      "1": {
+        "electric": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "magnetic": [
+          0
+        ]
+      },
+      "Z2": {
+        "electric": [
+          0,
+          2,
+          4
+        ],
+        "magnetic": [
+          0,
+          3
+        ]
+      },
+      "Z3": {
+        "electric": [
+          0,
+          3
+        ],
+        "magnetic": [
+          0,
+          2,
+          4
+        ]
+      },
+      "Z6": {
+        "electric": [
+          0
+        ],
+        "magnetic": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "dirac_pairing_integral": {
+      "1": true,
+      "Z2": true,
+      "Z3": true,
+      "Z6": true
+    },
+    "n_distinct_lattices": 4
+  },
+  "sl2z": {
+    "box": 40,
+    "n_vectors": 6560,
+    "n_primitive": 3920,
+    "primitive_density": 0.597561,
+    "six_over_pi_squared": 0.607927,
+    "density_gap_pct": 1.705,
+    "orbit_iff_coprime_verified": true,
+    "primitive_all_decomposable": true
+  },
+  "fusion": {
+    "su3_3x3": {
+      "3bar": 1,
+      "6": 1
+    },
+    "su3_3x3x3": {
+      "1": 1,
+      "8": 2,
+      "10": 1
+    },
+    "singlet_in_3x3": 0,
+    "singlet_in_3x3x3": 1,
+    "dim_check_3x3x3": 27,
+    "su2_max_dim": 8,
+    "su2_all_irreps_tensor_prime": true,
+    "su2_all_composite_as_summand": true
+  },
+  "constants": {
+    "BOX": 40,
+    "SEED": 20260823
+  },
+  "checks": {
+    "sixteen_weyl_states": true,
+    "all_five_conditions_hold": true,
+    "five_deletions_break": true,
+    "only_nu_breaks_nothing": true,
+    "screening_subgroup_is_z6": true,
+    "matter_admissible_under_all_forms": true,
+    "electric_magnetic_orders_multiply_to_six": true,
+    "dirac_pairing_integral": true,
+    "four_distinct_lattices": true,
+    "orbit_iff_coprime": true,
+    "primitive_density_near_6_over_pi2": true,
+    "every_primitive_decomposes": true,
+    "singlet_absent_in_3x3": true,
+    "singlet_once_in_3x3x3": true,
+    "dimension_check_27": true,
+    "su2_tensor_primality_universal": true,
+    "su2_bound_states_are_summands": true
+  }
+}
