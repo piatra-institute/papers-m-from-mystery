@@ -2,6 +2,17 @@
 
 Dated log of editorial passes and verification runs. Newest first.
 
+## 2026-08-23 — v1.1, precision pass against the primary abstracts
+
+Scope: the established-floor section, after fetching the three 2026 abstracts and the Jordan-pair paper's body at first hand.
+
+Changes:
+  - The E7 statement now says what the 32-dimensional spaces are (one generation of fermions together with their antiparticles) and carries the lineage Baez himself credits: the setting due to Nasmith, the mathematics running back to the Kugo-Yanagida E7 unification.
+  - The Baez-Schwahn statement now includes the identity-component detail of the stabilizer construction and their own gloss, the Standard Model gauge group as the symmetries of an octonionic qutrit acting as unitary operators on an ordinary qutrit and, within it, on a qubit.
+  - The Jordan-pair body claims (the 16-dimensional representation with the exact multiplet list, the right-handed neutrino, the chosen tripotents, the threefold descent not yet three generations) were verified against the paper's own text; the descent chain is now described in prose rather than raw notation, and the remaining code-like tokens in running prose were replaced.
+
+Verification: voice 0/0; refs 25/27, 0 missing, 0 unused; claims 0 no-match; build 12 pages; check => PASS.
+
 ## 2026-08-23 — v1, first full draft to publication
 
 Scope: the entire paper, simulation, and evidence base, from the seed chat to publication.
