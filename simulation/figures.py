@@ -58,8 +58,8 @@ def plot_generation(res: dict, path: str) -> None:
     ax1.set_xticklabels([LABEL[m["name"]] for m in ms], fontsize=8)
     ax1.set_ylabel("hypercharge", fontsize=9)
     ax1.set_ylim(-1.0, 1.35)
-    ax1.set_title("one generation: 16 Weyl states, six multiplets, "
-                  "five conditions, all zero", fontsize=9.5, color=INK)
+    ax1.set_title("one generation: 16 Weyl states in six multiplets, "
+                  "with hypercharges", fontsize=9.5, color=INK)
     ax1.annotate("blue: color triplets\ngreen: color singlets\narea: states",
                  (0.02, 0.03), xycoords="axes fraction", fontsize=7.5,
                  color=GRAY)
@@ -75,11 +75,10 @@ def plot_generation(res: dict, path: str) -> None:
     ax2.set_xticks(range(len(names)))
     ax2.set_xticklabels([LABEL[n] for n in names], fontsize=8)
     ax2.set_ylabel("consistency conditions broken if deleted", fontsize=9)
-    ax2.set_title("the generation is anomaly-rigid, except in one place",
+    ax2.set_title("conditions broken by deleting each multiplet",
                   fontsize=9.5, color=INK)
-    ax2.annotate("the right-handed neutrino:\nthe one multiplet the\n"
-                 "ledger does not demand", (5, 0.35), fontsize=7.5,
-                 color=GREEN, ha="center")
+    ax2.annotate("right-handed neutrino:\nno condition broken", (5.4, 2.7), fontsize=7.5,
+                 color=GREEN, ha="right")
     _style(ax2)
     fig.tight_layout()
     fig.savefig(path, dpi=200, bbox_inches="tight")
@@ -111,8 +110,8 @@ def plot_forms(res: dict, path: str) -> None:
                      f"{f['magnetic_one_form_order']} magnetic", fontsize=9,
                      color=INK)
         _style(ax)
-    fig.suptitle("four global forms: identical matter and perturbation "
-                 "theory, four distinct line lattices", fontsize=10,
+    fig.suptitle("line lattices of the four global forms "
+                 "of the Standard Model gauge group", fontsize=10,
                  color=INK, y=1.03)
     fig.tight_layout()
     fig.savefig(path, dpi=200, bbox_inches="tight")
@@ -140,7 +139,7 @@ def plot_atomos(res: dict, path: str) -> None:
                  textcoords="offset points")
     ax1.set_xlabel("electric charge p", fontsize=9)
     ax1.set_ylabel("magnetic charge q", fontsize=9)
-    ax1.set_title(f"the SL(2,Z) orbit of the electron label:\n"
+    ax1.set_title(f"SL(2,Z) orbit of the unit electric charge:\n"
                   f"primitive vectors, density {sl2['primitive_density']:.3f} "
                   f"(6/pi^2 = {sl2['six_over_pi_squared']:.4f})",
                   fontsize=9, color=INK)
@@ -156,8 +155,7 @@ def plot_atomos(res: dict, path: str) -> None:
     ax2.set_xticks(range(4))
     ax2.set_xticklabels(labels, fontsize=9)
     ax2.set_ylabel("dimension", fontsize=9)
-    ax2.set_title("3 x 3 x 3 = 1 + 8 + 8 + 10:\nthe singlet is simple "
-                  "and composite", fontsize=9, color=INK)
+    ax2.set_title("SU(3): 3 x 3 x 3 = 1 + 8 + 8 + 10", fontsize=9, color=INK)
     ax2.annotate("the proton\nchannel", (0, 1.6), fontsize=8, color=RED,
                  ha="center")
     _style(ax2)
@@ -175,8 +173,8 @@ def plot_atomos(res: dict, path: str) -> None:
     ax3.set_xticks(ns)
     ax3.set_xlabel("SU(2) irreducible, by dimension", fontsize=9)
     ax3.set_ylim(-0.7, 1.7)
-    ax3.set_title("every irrep is prime, every irrep is composite:\n"
-                  "bound states are summands, never factors", fontsize=9,
+    ax3.set_title("SU(2) fusion: tensor factorizations\n"
+                  "and summand occurrences by spin", fontsize=9,
                   color=INK)
     _style(ax3)
     fig.tight_layout()

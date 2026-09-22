@@ -1,0 +1,20 @@
+{
+  "pdf_sha256": "9a0a8ab5e019e8dfbe84e01016e6ec09f50eda749f3bb2226c3099dde1941e62",
+  "page_count": 12,
+  "pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "all_pages_inspected": true,
+  "notes": "All 12 pages inspected after the prose revision; figure titles replaced with descriptive ones; clipped right-handed-neutrino label in figure 1 moved; 6/pi^2 and tensor symbols typeset in math mode. Metadata-only rebuild: the web blurb in metadata.yaml, a hashed build input, changed, so the PDF was re-rendered (17853575219d to 9a0a8ab5e019); the rendered text is byte-for-byte identical and no page was re-inspected."
+}

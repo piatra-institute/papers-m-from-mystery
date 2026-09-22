@@ -2,6 +2,13 @@
 
 Dated log of editorial passes and verification runs. Newest first.
 
+## 2026-09-22 — prose revision
+
+Prose rewritten against the house standards. Headings made descriptive (Introduction, Recent results on exceptional Jordan algebras and the Standard Model, The kernel and its quantum completion, Anomaly cancellation in one generation, Global forms of the gauge group, Failure of label-based criteria for indivisibility, A hierarchy of atomicity and the electron conjecture, Conjectures and failure criteria, Objections, Falsification, Relativity of atomicity, Reproducibility).
+All values are exact (rational arithmetic, exhaustive enumeration); no grid-derived quantities. Deletion counts re-derived by hand (q_L 5, l_L 4, u^c and d^c 3, e^c 2, nu^c 0) and agree. 3,920/6,560 = 0.5976.
+The earlier text called the right-handed neutrino's existence "experimentally indirect"; it has not been observed, and the text now says it has not been established experimentally.
+Unicode tensor symbol replaced by $\otimes$ (the Palatino build font lacks U+2297). results.json unchanged by figure edits.
+
 ## 2026-08-23 — v1.1, precision pass against the primary abstracts
 
 Scope: the established-floor section, after fetching the three 2026 abstracts and the Jordan-pair paper's body at first hand.
