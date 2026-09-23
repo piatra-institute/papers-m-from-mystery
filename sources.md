@@ -44,3 +44,7 @@ Every entry verified against the arXiv API, Crossref, or the standard bibliograp
 - **Deligne's tensor-category theorems, Etingof et al.**: the fusion arithmetic the paper needs is computed directly.
 - **Seiberg-Witten (1994)**: the 1995 Seiberg duality paper is the cleaner citation for composite-elementary exchange.
 - **The seed's BV/factorization construction details beyond Costello-Gwilliam**: architecture, not literature.
+
+## Structured bibliography (2026-09-23)
+
+The inline reference list was migrated to references.yaml (CSL) and in-text citations to Pandoc [@id] syntax. Fourteen journal articles were matched in Crossref and carry their DOIs; baez2002 and montonen1977 were completed from their DOI records, and devastato2019 from its published version (International Journal of Modern Physics A 34(19): 1930010, DOI 10.1142/S0217751X19300102). The ten arXiv preprints were re-fetched from the arXiv API during the migration, which confirmed titles, authors and submission dates; garciaetxebarria2018 is cited as the arXiv preprint (the published version is JHEP 08 (2019) 003). The Crossref records for jordan1934 and wigner1939 give only first pages; the full ranges (29–64, 149–204) and von Neumann's name were restored by hand. Source claims in claims.yaml were checked against arXiv, Crossref or OpenAlex abstracts.

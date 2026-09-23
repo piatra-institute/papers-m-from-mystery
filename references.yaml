@@ -1,0 +1,413 @@
+# CSL references with stable IDs; cite with Pandoc [@id] syntax.
+# Migrated from the legacy inline bibliography. Entries with a DOI were resolved through doi.org
+# content negotiation (CSL-JSON) and checked for year and title; others were matched in Crossref
+# or entered by hand. Provenance per entry is in sources.md.
+references:
+- id: baez2002
+  type: article-journal
+  title: The Octonions
+  author:
+  - &id001
+    family: Baez
+    given: John C.
+  container-title: Bulletin of the American Mathematical Society
+  volume: '39'
+  issue: '2'
+  page: 145-205
+  issued:
+    date-parts:
+    - - 2002
+  DOI: 10.1090/S0273-0979-01-00934-X
+- id: baez2026
+  type: article
+  title: Three Generations in E7
+  author:
+  - *id001
+  number: arXiv:2608.06271
+  issued:
+    date-parts:
+    - - 2026
+  URL: https://arxiv.org/abs/2608.06271
+  genre: Preprint
+- id: baez2026b
+  type: article
+  title: The Standard Model Gauge Group from the Exceptional Jordan Algebra
+  author:
+  - *id001
+  - family: Schwahn
+    given: Paul
+  number: arXiv:2606.15235
+  issued:
+    date-parts:
+    - - 2026
+  URL: https://arxiv.org/abs/2606.15235
+  genre: Preprint
+- id: baez2026c
+  type: article
+  title: Jordan Pair Quantum Theory and the Standard Model
+  author:
+  - *id001
+  - family: Bokor
+    given: Endre
+  - family: Boyle
+    given: Latham
+  number: arXiv:2607.10833
+  issued:
+    date-parts:
+    - - 2026
+  URL: https://arxiv.org/abs/2607.10833
+  genre: Preprint
+- id: benzvi2026
+  type: article
+  title: What Is the Geometric Langlands Correspondence About?
+  author:
+  - family: Ben-Zvi
+    given: David
+  number: arXiv:2605.23167
+  issued:
+    date-parts:
+    - - 2026
+  URL: https://arxiv.org/abs/2605.23167
+  genre: Preprint
+- id: benzvi2024
+  type: article
+  title: Relative Langlands Duality
+  author:
+  - family: Ben-Zvi
+    given: David
+  - family: Sakellaridis
+    given: Yiannis
+  - family: Venkatesh
+    given: Akshay
+  number: arXiv:2409.04677
+  issued:
+    date-parts:
+    - - 2024
+  URL: https://arxiv.org/abs/2409.04677
+  genre: Preprint
+- id: buchholz1986
+  type: article-journal
+  title: Gauss' law and the infraparticle problem
+  author:
+  - given: Detlev
+    family: Buchholz
+  container-title: Physics Letters B
+  volume: '174'
+  issue: '3'
+  page: 331-334
+  DOI: 10.1016/0370-2693(86)91110-x
+  issued:
+    date-parts:
+    - - 1986
+- id: chamseddine1997
+  type: article-journal
+  title: The Spectral Action Principle
+  author:
+  - given: A. H.
+    family: Chamseddine
+  - given: A.
+    family: Connes
+  container-title: Communications in Mathematical Physics
+  volume: '186'
+  issue: '3'
+  page: 731-750
+  DOI: 10.1007/s002200050126
+  issued:
+    date-parts:
+    - - 1997
+- id: costello2023
+  type: article
+  title: Factorization Algebra
+  author:
+  - family: Costello
+    given: Kevin
+  - family: Gwilliam
+    given: Owen
+  number: arXiv:2310.06137
+  issued:
+    date-parts:
+    - - 2023
+  URL: https://arxiv.org/abs/2310.06137
+  genre: Preprint
+- id: devastato2019
+  type: article-journal
+  title: Spectral Noncommutative Geometry, Standard Model and All That
+  author:
+  - family: Devastato
+    given: Agostino
+  - family: Kurkov
+    given: Maxim
+  - family: Lizzi
+    given: Fedele
+  container-title: International Journal of Modern Physics A
+  volume: '34'
+  issue: '19'
+  page: '1930010'
+  issued:
+    date-parts:
+    - - 2019
+  DOI: 10.1142/S0217751X19300102
+  URL: https://arxiv.org/abs/1906.09583
+- id: doplicher1989
+  type: article-journal
+  title: A new duality theory for compact groups
+  author:
+  - given: Sergio
+    family: Doplicher
+  - given: John E.
+    family: Roberts
+  container-title: Inventiones Mathematicae
+  volume: '98'
+  issue: '1'
+  page: 157-218
+  DOI: 10.1007/bf01388849
+  issued:
+    date-parts:
+    - - 1989
+- id: doplicher1971
+  type: article-journal
+  title: Local observables and particle statistics I
+  author:
+  - given: Sergio
+    family: Doplicher
+  - given: Rudolf
+    family: Haag
+  - given: John E.
+    family: Roberts
+  container-title: Communications in Mathematical Physics
+  volume: '23'
+  issue: '3'
+  page: 199-230
+  DOI: 10.1007/bf01877742
+  issued:
+    date-parts:
+    - - 1971
+- id: duboisviolette2016
+  type: article-journal
+  title: Exceptional quantum geometry and particle physics
+  author:
+  - given: Michel
+    family: Dubois-Violette
+  container-title: Nuclear Physics B
+  volume: '912'
+  page: 426-449
+  DOI: 10.1016/j.nuclphysb.2016.04.018
+  issued:
+    date-parts:
+    - - 2016
+- id: duboisviolette2019
+  type: article-journal
+  title: Exceptional quantum geometry and particle physics II
+  author:
+  - given: Michel
+    family: Dubois-Violette
+  - given: Ivan
+    family: Todorov
+  container-title: Nuclear Physics B
+  volume: '938'
+  page: 751-761
+  DOI: 10.1016/j.nuclphysb.2018.12.012
+  issued:
+    date-parts:
+    - - 2019
+- id: duch2023
+  type: article
+  title: Infrared Problem in Quantum Electrodynamics
+  author:
+  - family: Duch
+    given: Paweł
+  - family: Dybalski
+    given: Wojciech
+  number: arXiv:2307.06114
+  issued:
+    date-parts:
+    - - 2023
+  URL: https://arxiv.org/abs/2307.06114
+  genre: Preprint
+- id: fang2024
+  type: article
+  title: On Duality of Four Dimensional N=1 Gauge Theory
+  author:
+  - family: Fang
+    given: Yuanyuan
+  - family: Feng
+    given: Jing
+  - family: Xie
+    given: Dan
+  number: arXiv:2403.01750
+  issued:
+    date-parts:
+    - - 2024
+  URL: https://arxiv.org/abs/2403.01750
+  genre: Preprint
+- id: farnsworth2025
+  type: article
+  title: Spectral Geometry with Exceptional Symmetry and Charged Higgs Fields
+  author:
+  - family: Farnsworth
+    given: Shane
+  number: arXiv:2506.21496
+  issued:
+    date-parts:
+    - - 2025
+  URL: https://arxiv.org/abs/2506.21496
+  genre: Preprint
+- id: frohlich1979
+  type: article-journal
+  title: Charged sectors and scattering states in quantum electrodynamics
+  author:
+  - given: J
+    family: Fröhlich
+  - given: G
+    family: Morchio
+  - given: F
+    family: Strocchi
+  container-title: Annals of Physics
+  volume: '119'
+  issue: '2'
+  page: 241-284
+  DOI: 10.1016/0003-4916(79)90187-8
+  issued:
+    date-parts:
+    - - 1979
+- id: garciaetxebarria2018
+  type: article
+  title: Dai-Freed Anomalies in Particle Physics
+  author:
+  - family: García-Etxebarria
+    given: Iñaki
+  - family: Montero
+    given: Miguel
+  number: arXiv:1808.00009
+  issued:
+    date-parts:
+    - - 2018
+  URL: https://arxiv.org/abs/1808.00009
+  genre: Preprint
+- id: goddard1977
+  type: article-journal
+  title: Gauge theories and magnetic charge
+  author:
+  - given: P.
+    family: Goddard
+  - given: J.
+    family: Nuyts
+  - given: D.
+    family: Olive
+  container-title: Nuclear Physics B
+  volume: '125'
+  issue: '1'
+  page: 1-28
+  DOI: 10.1016/0550-3213(77)90221-8
+  issued:
+    date-parts:
+    - - 1977
+- id: gunaydin1973
+  type: article-journal
+  title: Quark structure and octonions
+  author:
+  - given: Murat
+    family: Günaydin
+  - given: Feza
+    family: Gürsey
+  container-title: Journal of Mathematical Physics
+  volume: '14'
+  issue: '11'
+  page: 1651-1667
+  DOI: 10.1063/1.1666240
+  issued:
+    date-parts:
+    - - 1973
+- id: jordan1934
+  type: article-journal
+  title: On an Algebraic Generalization of the Quantum Mechanical Formalism
+  author:
+  - given: P.
+    family: Jordan
+  - given: J.
+    family: Neumann
+    non-dropping-particle: von
+  - given: E.
+    family: Wigner
+  container-title: Annals of Mathematics
+  volume: '35'
+  issue: '1'
+  page: 29-64
+  DOI: 10.2307/1968117
+  issued:
+    date-parts:
+    - - 1934
+- id: kapustin2007
+  type: article-journal
+  title: Electric-magnetic duality and the geometric Langlands program
+  author:
+  - given: Anton
+    family: Kapustin
+  - given: Edward
+    family: Witten
+  container-title: Communications in Number Theory and Physics
+  volume: '1'
+  issue: '1'
+  page: 1-236
+  DOI: 10.4310/cntp.2007.v1.n1.a1
+  issued:
+    date-parts:
+    - - 2007
+- id: montonen1977
+  type: article-journal
+  title: Magnetic Monopoles as Gauge Particles?
+  author:
+  - family: Montonen
+    given: C.
+  - family: Olive
+    given: D.
+  container-title: Physics Letters B
+  volume: '72'
+  issue: '1'
+  page: 117-120
+  issued:
+    date-parts:
+    - - 1977
+  DOI: 10.1016/0370-2693(77)90076-4
+- id: seiberg1995
+  type: article-journal
+  title: Electric-magnetic duality in supersymmetric non-Abelian gauge theories
+  author:
+  - given: N.
+    family: Seiberg
+  container-title: Nuclear Physics B
+  volume: '435'
+  issue: 1-2
+  page: 129-146
+  DOI: 10.1016/0550-3213(94)00023-8
+  issued:
+    date-parts:
+    - - 1995
+- id: tong2017
+  type: article-journal
+  title: Line operators in the Standard Model
+  author:
+  - given: David
+    family: Tong
+  container-title: Journal of High Energy Physics
+  volume: '2017'
+  issue: '7'
+  DOI: 10.1007/jhep07(2017)104
+  issued:
+    date-parts:
+    - - 2017
+  page: '104'
+- id: wigner1939
+  type: article-journal
+  title: On Unitary Representations of the Inhomogeneous Lorentz Group
+  author:
+  - given: E.
+    family: Wigner
+  container-title: Annals of Mathematics
+  volume: '40'
+  issue: '1'
+  page: 149-204
+  DOI: 10.2307/1968551
+  issued:
+    date-parts:
+    - - 1939

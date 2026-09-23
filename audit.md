@@ -2,6 +2,17 @@
 
 Dated log of editorial passes and verification runs. Newest first.
 
+## 2026-09-23 — structured-evidence migration
+
+Structured-evidence migration (references and claims).
+- references.yaml: 27 CSL entries. 14 matched in Crossref with DOIs; baez2002, montonen1977 and devastato2019 completed from DOI records (devastato2019 now cites its published version, IJMPA 34(19): 1930010); the 10 arXiv preprints re-fetched from the arXiv API (titles, authors, dates confirmed) and entered as preprints with arXiv numbers. In-text citations converted to Pandoc [@id]; legacy list replaced by the citeproc list.
+- Bibliographic corrections: jordan1934 and wigner1939 full page ranges (29-64, 149-204) and von Neumann's name restored where Crossref gave only first pages and "v. Neumann".
+- analyses.py: added /generation/deletion_break_counts (lengths of the existing deletion_breaks lists) so the counts 5, 4, 3, 3, 2, 0 bind to pointers; every pre-existing value unchanged.
+- claims.yaml: 31 claims (14 computation, 6 source, 6 interpretation, 3 definition, 1 assumption, 1 normative). Source claims checked against arXiv abstracts (Baez and Schwahn; Baez e7; Costello and Gwilliam; Farnsworth; Ben-Zvi; Ben-Zvi, Sakellaridis and Venkatesh) and OpenAlex abstracts (Tong; Kapustin and Witten).
+- Unverified, not bound: the detailed Peirce-chain statements attributed to Baez, Bokor and Boyle (abstract states only the bi-Cayley correspondence); Devastato et al. on generations and Yukawas inserted by hand; Fang, Feng and Xie on composite-elementary exchange; the infraparticle theorem (Fröhlich et al., Buchholz, Duch and Dybalski); Seiberg, Doplicher-Roberts, Chamseddine-Connes, Goddard-Nuyts-Olive (no abstracts retrievable).
+- Execution receipt: run id exact (verification/exact.json), `uv run python run_all.py`, 17 invariants, results.json reproduced.
+- metadata claims_target: claim-ledger.
+
 ## 2026-09-22 — prose revision
 
 Prose rewritten against the house standards. Headings made descriptive (Introduction, Recent results on exceptional Jordan algebras and the Standard Model, The kernel and its quantum completion, Anomaly cancellation in one generation, Global forms of the gauge group, Failure of label-based criteria for indivisibility, A hierarchy of atomicity and the electron conjecture, Conjectures and failure criteria, Objections, Falsification, Relativity of atomicity, Reproducibility).

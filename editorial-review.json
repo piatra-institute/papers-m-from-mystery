@@ -1,10 +1,10 @@
 {
-  "manuscript_sha256": "2ed10abfd0f412df3ee2a484cd5dc57f9c660d97b784a262ec7941468e7125ea",
+  "manuscript_sha256": "faf6d5bf4321814174495fc5f6cfd8d9cd5a11c504a83d433cd6ca1cf13ab5f7",
   "full_read": true,
   "argument_review": true,
   "structure_review": true,
   "voice_review": true,
   "source_review": true,
   "final_read": true,
-  "notes": "Prose revision: descriptive headings; 'this paper' 21 -> 0 and 'rather than' 17 -> 0; abstract rewritten (about 260 words); aphoristic closers ('Primitive label, divisible carrier', 'the sentence has a truth value to await') removed; right-handed neutrino described as not established experimentally; every number and citation preserved."
+  "notes": "Structured-evidence migration: inline bibliography converted to references.yaml (CSL) with Pandoc [@id] citations; claims.yaml ledger and execution receipt added; prose unchanged."
 }

@@ -96,6 +96,7 @@ def run_generation() -> dict:
         "anomaly_sums": {k: str(v) for k, v in sums.items()},
         "all_conditions_hold": ok,
         "deletion_breaks": deletions,
+        "deletion_break_counts": {k: len(v) for k, v in deletions.items()},
         "deletions_that_break_nothing": [k for k, v in deletions.items()
                                          if not v],
     }

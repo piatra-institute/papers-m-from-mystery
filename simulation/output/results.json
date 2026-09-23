@@ -83,6 +83,14 @@
       ],
       "nbarR": []
     },
+    "deletion_break_counts": {
+      "qL": 5,
+      "dbarR": 3,
+      "ubarR": 3,
+      "lL": 4,
+      "ebarR": 2,
+      "nbarR": 0
+    },
     "deletions_that_break_nothing": [
       "nbarR"
     ]
